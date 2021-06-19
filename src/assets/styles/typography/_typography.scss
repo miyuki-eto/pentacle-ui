@@ -43,6 +43,19 @@ h4 {
   margin-bottom: 1rem;
 }
 
+h5 {
+  font-family: _font(family-default);
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px dotted rgba(255,255,255, .25);
+  width: calc(100% - 1rem);
+  margin-bottom: 1rem;
+  > span {
+    font-size: 1.5rem;
+  }
+}
+
 
 table, p, em, div, input {
   font-family: _font(family-body);
