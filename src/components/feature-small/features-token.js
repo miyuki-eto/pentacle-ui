@@ -15,21 +15,36 @@ const FeaturesTokenLayout = () => {
                                 <img className={feature.logoClass} alt={feature.alt}
                                                             src={feature.img}/>
                             </div>
-                            <div className={"margin-top-1 align-left"}>
+                            <div className={"margin-top-1 align-center"}>
                                 <h3>{feature.name}</h3>
-                                <p>{feature.binance_symbol}</p>
+
+                                <div className={"flex-group"}>
+                                    <p>Binance</p>
+                                    <p>Exchange</p>
+                                    <p>FTX</p>
+                                </div>
+
+                                <div className={"flex-group"}>
+                                    <p>{feature.binance_symbol}</p>
+                                    <p>Symbol</p>
+                                    <p>{feature.ftx_symbol}</p>
+                                </div>
 
                                 <div className={"flex-group"}>
                                     <p>{feature.binance_price}</p>
-                                    <p>{feature.binance_openInterest}</p>
-                                    <p>{feature.binance_openInterestUSDT}</p>
+                                    <p>Price</p>
+                                    <p>{feature.ftx_price}</p>
                                 </div>
 
-                                <p>{feature.ftx_symbol}</p>
+                                <div className={"flex-group"}>
+                                    <p>{feature.binance_openInterest}</p>
+                                    <p>OI (Token)</p>
+                                    <p>{feature.ftx_openInterest}</p>
+                                </div>
 
                                 <div className={"flex-group"}>
-                                    <p>{feature.ftx_price}</p>
-                                    <p>{feature.ftx_openInterest}</p>
+                                    <p>{feature.binance_openInterestUSDT}</p>
+                                    <p>OI (USD)</p>
                                     <p>{feature.ftx_openInterestUSD}</p>
                                 </div>
                                 {/*<div><img src={feature.imageUrl} alt={feature.imageAlt}/></div>*/}
