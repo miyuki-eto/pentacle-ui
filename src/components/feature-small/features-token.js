@@ -1,6 +1,5 @@
 import React from "react"
 import {features} from "../../data/featuresToken";
-import {Link} from "react-router-dom";
 
 const FeaturesTokenLayout = () => {
 

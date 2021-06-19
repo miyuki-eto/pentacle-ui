@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import twitterIcon from "../assets/images/twitter.svg";
 
 class Navigation extends Component {
     render() {
