@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem 1rem;
+  grid-gap: 1rem 1rem;
 }
 
 @media screen and (max-width: _breakpoint(step-one)) {

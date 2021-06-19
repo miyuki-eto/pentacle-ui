@@ -7,8 +7,8 @@ class Header extends Component {
     render() {
         return <header>
             <div className="header-content flex-align-center flex-group space-between">
-                <Link className={"logo"} to="/">Pentacle</Link>
-                <h3>In your quest for knowledge, a talisman of protection</h3>
+                <Link className={"logo"} to="/">DeFi Dashboard</Link>
+                {/*<h3>DeFi Open Interest</h3>*/}
                 <Navigation/>
             </div>
         </header>

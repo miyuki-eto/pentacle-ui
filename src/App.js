@@ -9,7 +9,7 @@ function App() {
     return (
         <BrowserRouter>
             <Router/>
-            <Footer/>
+            {/*<Footer/>*/}
         </BrowserRouter>
     );
 }
