@@ -1,0 +1,11 @@
+.sunburst {
+  a {
+    fill: rgba(255, 255, 255, .65);
+  }
+}
+
+@media screen and (max-width: _breakpoint(step-one)) {
+  .fit-to-screen {
+    display: none;
+  }
+}

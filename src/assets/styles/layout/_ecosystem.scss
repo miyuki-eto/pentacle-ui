@@ -1,0 +1,25 @@
+.chart-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+  position: relative;
+
+  a {
+    fill: rgba(255, 255, 255, .65);
+  }
+}
+
+.fit-to-screen {
+  position: absolute;
+  right: 3rem;
+
+  span {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: _breakpoint(step-one)) {
+  .fit-to-screen {
+    display: none;
+  }
+}
